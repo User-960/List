@@ -38,10 +38,13 @@
       "quotes": ["off", "double"],
       "indent": ["off", "2"],
       "no-unused-vars": "off",
+      "no-empty-function": "off",
 
       "@typescript-eslint/semi": ["error", "always"], // semicolon check
       "@typescript-eslint/quotes": ["error", "double"], // check for quotes
       "@typescript-eslint/indent": ["off", "2"], // enforces a consistent indentation style
-      "@typescript-eslint/no-unused-vars": "error" // disallow unused variables
+      "@typescript-eslint/no-unused-vars": "error", // disallow unused variables
+      "@typescript-eslint/no-empty-function": "off", // disallow empty functions
+      "@typescript-eslint/no-inferrable-types": "off" // disallow explicit type declarations for variables or parameters
     }
 }
