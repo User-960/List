@@ -20,6 +20,7 @@ To install packages, use the command
 ```shell
 npm install
 ```
+* Before start project you need to make file .env in root of project and copy from file .env.example variables with meanings in new file. Or you can write your own meanings for variables in file .env
 
 ## Commands
 
